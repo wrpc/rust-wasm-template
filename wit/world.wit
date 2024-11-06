@@ -1,0 +1,13 @@
+package {{ namespace }}:{{ package }};
+
+interface {{ interface }} {
+    greet: func(name: string) -> string;
+}
+
+world client {
+    import {{ interface }};
+}
+
+world server {
+    export {{ interface }};
+}

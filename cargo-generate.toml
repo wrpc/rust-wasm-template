@@ -1,0 +1,14 @@
+[placeholders.namespace]
+prompt = "WIT package namespace to use"
+default = "example"
+type = "string"
+
+[placeholders.package]
+prompt = "WIT package name to use"
+default = "example"
+type = "string"
+
+[placeholders.interface]
+prompt = "WIT interface name to use"
+default = "greet"
+type = "string"
