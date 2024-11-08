@@ -2,8 +2,14 @@
 
 ## Build
 
+With `cargo`:
 ```
 cargo build --workspace --target wasm32-wasip2 --release
+```
+
+With `nix`:
+```
+nix build .#{{ project-name }}-wasm32-wasip2
 ```
 
 ## Run
